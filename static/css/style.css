@@ -1,11 +1,37 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    text-align: center;
-    margin-top: 50px;
+    background-color: #323030; /* Тёмный фон */
+    color: #CDBEA7; /* Светлый цвет текста */
+    text-align: center; /* Центрирование текста */
+    margin-top: 50px; /* Отступ сверху */
 }
 
 h1 {
-    color: #007BFF;
+    color: #D32D2D; /* Яркий цвет для заголовка */
+    font-size: 2.5em; /* Увеличенный размер шрифта для заголовка */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+h2 {
+    color: #D32D2D; /* Яркий цвет для подзаголовков */
+    font-size: 2em; /* Размер шрифта для подзаголовков */
+    margin-top: 30px; /* Отступ сверху */
+}
+
+p {
+    line-height: 1.6; /* Междустрочный интервал для лучшей читаемости */
+    margin: 10px 0; /* Отступы сверху и снизу */
+}
+
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+}
+
+li {
+    background-color: #CDBEA7; /* Фон для элементов списка */
+    color: #323030; /* Тёмный цвет текста в списке */
+    margin: 10px 0; /* Отступы между элементами списка */
+    padding: 10px; /* Внутренние отступы */
+    border-radius: 5px; /* Закругление углов */
 }
