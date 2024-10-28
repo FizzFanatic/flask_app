@@ -1,38 +1,40 @@
 body {
-    background-color: white; /* Цвет фона */
-    font-family: Arial, sans-serif; /* Шрифт */
-    color: #0C3B2E; /* Основной текст */
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: #0C3B2E;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Высота вьюпорта */
-    margin: 0; /* Убираем отступы */
+    height: 100vh;
+    margin: 0;
 }
 
 .container {
-    text-align: center; /* Центрируем текст */
+    text-align: center;
 }
 
 p {
-    color: lightgray; /* Цвет параграфов */
+    color: #888888; /* Более темный светло-серый цвет */
 }
 
 .button-container {
-    margin-top: 20px; /* Отступ сверху для кнопок */
+    margin-top: 20px;
 }
 
 .action-button {
-    background-color: #6D9773; /* Цвет кнопок */
-    color: white; /* Цвет текста кнопок */
-    border: none; /* Без рамки */
-    border-radius: 5px; /* Закругленные углы */
-    padding: 10px 20px; /* Отступы внутри кнопок */
-    margin: 10px; /* Отступ между кнопками */
-    font-size: 16px; /* Размер шрифта кнопок */
-    cursor: pointer; /* Указатель при наведении */
-    transition: background-color 0.3s; /* Плавный переход цвета */
+    background-color: #6D9773;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 250px; /* Фиксированная ширина для кнопок */
+    text-align: center;
 }
 
 .action-button:hover {
-    background-color: #5A7B61; /* Цвет кнопки при наведении */
+    background-color: #5A7B61;
 }
